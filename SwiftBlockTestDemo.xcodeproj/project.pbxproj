@@ -8,22 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		FE6ACD732383D6F0001FFF04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6ACD722383D6F0001FFF04 /* AppDelegate.swift */; };
-		FE6ACD752383D6F0001FFF04 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6ACD742383D6F0001FFF04 /* SceneDelegate.swift */; };
 		FE6ACD772383D6F0001FFF04 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6ACD762383D6F0001FFF04 /* ViewController.swift */; };
 		FE6ACD7A2383D6F1001FFF04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE6ACD782383D6F1001FFF04 /* Main.storyboard */; };
 		FE6ACD7C2383D6FA001FFF04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE6ACD7B2383D6FA001FFF04 /* Assets.xcassets */; };
 		FE6ACD7F2383D6FA001FFF04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE6ACD7D2383D6FA001FFF04 /* LaunchScreen.storyboard */; };
+		FE6ACD872383D723001FFF04 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6ACD862383D723001FFF04 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FE6ACD6F2383D6F0001FFF04 /* SwiftBlockTestDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftBlockTestDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE6ACD722383D6F0001FFF04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FE6ACD742383D6F0001FFF04 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		FE6ACD762383D6F0001FFF04 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FE6ACD792383D6F1001FFF04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FE6ACD7B2383D6FA001FFF04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FE6ACD7E2383D6FA001FFF04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FE6ACD802383D6FA001FFF04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE6ACD862383D723001FFF04 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +57,8 @@
 			isa = PBXGroup;
 			children = (
 				FE6ACD722383D6F0001FFF04 /* AppDelegate.swift */,
-				FE6ACD742383D6F0001FFF04 /* SceneDelegate.swift */,
 				FE6ACD762383D6F0001FFF04 /* ViewController.swift */,
+				FE6ACD862383D723001FFF04 /* SecondViewController.swift */,
 				FE6ACD782383D6F1001FFF04 /* Main.storyboard */,
 				FE6ACD7B2383D6FA001FFF04 /* Assets.xcassets */,
 				FE6ACD7D2383D6FA001FFF04 /* LaunchScreen.storyboard */,
@@ -138,9 +138,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE6ACD872383D723001FFF04 /* SecondViewController.swift in Sources */,
 				FE6ACD772383D6F0001FFF04 /* ViewController.swift in Sources */,
 				FE6ACD732383D6F0001FFF04 /* AppDelegate.swift in Sources */,
-				FE6ACD752383D6F0001FFF04 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +287,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GL9GCTA7BP;
 				INFOPLIST_FILE = SwiftBlockTestDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,6 +306,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GL9GCTA7BP;
 				INFOPLIST_FILE = SwiftBlockTestDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
